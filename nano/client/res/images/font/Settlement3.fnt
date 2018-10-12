@@ -1,0 +1,18 @@
+info face="Berlin Sans FB Demi" size=72 bold=1 italic=0 charset="" unicode=1 stretchH=100 smooth=1 aa=1 padding=8,8,8,8 spacing=1,1 outline=0
+common lineHeight=72 base=59 scaleW=750 scaleH=70 pages=1 packed=0 alphaChnl=0 redChnl=4 greenChnl=4 blueChnl=4
+page id=0 file="Settlement3.png"
+chars count=14
+char id=32   x=583   y=0     width=19    height=17    xoffset=-9    yoffset=63    xadvance=16    page=0  chnl=15
+char id=43   x=466   y=0     width=44    height=44    xoffset=-7    yoffset=18    xadvance=30    page=0  chnl=15
+char id=44   x=511   y=0     width=32    height=36    xoffset=-8    yoffset=39    xadvance=18    page=0  chnl=15
+char id=45   x=544   y=0     width=38    height=28    xoffset=-6    yoffset=27    xadvance=27    page=0  chnl=15
+char id=48   x=0     y=0     width=52    height=55    xoffset=-6    yoffset=13    xadvance=40    page=0  chnl=15
+char id=49   x=433   y=0     width=32    height=54    xoffset=-8    yoffset=13    xadvance=20    page=0  chnl=15
+char id=50   x=151   y=0     width=47    height=55    xoffset=-7    yoffset=13    xadvance=33    page=0  chnl=15
+char id=51   x=199   y=0     width=45    height=55    xoffset=-7    yoffset=13    xadvance=31    page=0  chnl=15
+char id=52   x=291   y=0     width=48    height=54    xoffset=-6    yoffset=13    xadvance=35    page=0  chnl=15
+char id=53   x=340   y=0     width=46    height=54    xoffset=-7    yoffset=14    xadvance=32    page=0  chnl=15
+char id=54   x=53    y=0     width=48    height=55    xoffset=-6    yoffset=13    xadvance=35    page=0  chnl=15
+char id=55   x=387   y=0     width=45    height=54    xoffset=-8    yoffset=13    xadvance=30    page=0  chnl=15
+char id=56   x=245   y=0     width=45    height=55    xoffset=-7    yoffset=13    xadvance=31    page=0  chnl=15
+char id=57   x=102   y=0     width=48    height=55    xoffset=-6    yoffset=13    xadvance=36    page=0  chnl=15

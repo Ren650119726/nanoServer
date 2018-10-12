@@ -1,0 +1,143 @@
+_06-13-2018_ 19:10:37 log cocos2d: fullPathForFilename: No file found at config.json. Possible missing file.
+_06-13-2018_ 19:10:37 log cocos2d: fullPathForFilename: No file found at config.json. Possible missing file.
+_06-13-2018_ 19:10:37 log Get data from file(config.json) failed, error code is 3
+_06-13-2018_ 19:10:37 log SCREEN DPI = 96, SCREEN SCALE = 1.00
+_06-13-2018_ 19:10:37 log Ready for GLSL
+_06-13-2018_ 19:10:37 log Ready for OpenGL 2.0
+_06-13-2018_ 19:10:38 log 
+{
+	gl.version: 4.6.0 NVIDIA 388.13
+	gl.supports_NPOT: true
+	cocos2d.x.version: cocos2d-x-3.10
+	cocos2d.x.compiled_with_profiler: false
+	cocos2d.x.build_type: DEBUG
+	cocos2d.x.compiled_with_gl_state_cache: true
+	gl.max_texture_size: 32768
+	gl.vendor: NVIDIA Corporation
+	gl.renderer: GeForce GTX 1050/PCIe/SSE2
+	gl.max_texture_units: 192
+	gl.supports_ETC1: false
+	gl.supports_S3TC: true
+	gl.supports_ATITC: false
+	gl.supports_PVRTC: false
+	gl.supports_BGRA8888: false
+	gl.supports_discard_framebuffer: false
+	gl.supports_vertex_array_object: true
+}
+
+
+_06-13-2018_ 19:10:38 log Project Config:
+_06-13-2018_ 19:10:38 log     project dir: 
+_06-13-2018_ 19:10:38 log     writable path: $(PROJDIR)\
+_06-13-2018_ 19:10:38 log     script file: $(PROJDIR)\
+_06-13-2018_ 19:10:38 log     frame size: 1280 x 720
+_06-13-2018_ 19:10:38 log     frame scale: 1.00
+_06-13-2018_ 19:10:38 log     show console: YES
+_06-13-2018_ 19:10:38 log     write debug log: NO ()
+_06-13-2018_ 19:10:38 log     listen: 
+_06-13-2018_ 19:10:38 log     debugger: none
+_06-13-2018_ 19:10:38 log     add searching path:
+_06-13-2018_ 19:10:38 log 
+
+
+_06-13-2018_ 19:10:38 log [LUA] ==>SearchPath	C:/devs/cc/sc-triple-client/simulator/win32/appData/debugruntime/
+_06-13-2018_ 19:10:38 log [LUA] ==>SearchPath	C:/devs/cc/sc-triple-client/simulator/win32/
+_06-13-2018_ 19:10:38 log [LUA] ==>SearchPath	C:/devs/cc/sc-triple-client/simulator/win32/
+_06-13-2018_ 19:10:38 log [LUA] ==>SearchPath	
+_06-13-2018_ 19:10:38 log [LUA] ==>SearchPath	C:/devs/cc/sc-triple-client/simulator/win32/
+_06-13-2018_ 19:10:38 log [LUA] ==>SearchPath	C:/devs/cc/sc-triple-client/simulator/win32/appData/hotfix/res/
+_06-13-2018_ 19:10:38 log [LUA] ==>SearchPath	src/
+_06-13-2018_ 19:10:38 log [LUA] ==>SearchPath	res/
+_06-13-2018_ 19:10:38 log [LUA] # design resolution size       = {width = 1280.00, height = 720.00}
+_06-13-2018_ 19:10:38 log [LUA] # design resolution autoscale  = NO_BORDER
+_06-13-2018_ 19:10:38 log Console: listening on  0.0.0.0 : 60000
+_06-13-2018_ 19:10:38 log [LUA] start download remote version file: %s	http://127.0.0.1:12306/static/update/version.json
+_06-13-2018_ 19:10:38 log [LUA] LuaEvent =====>10
+_06-13-2018_ 19:10:38 log [LUA] ===============ontaskprocess==================
+_06-13-2018_ 19:10:38 log [LUA] LuaEvent =====>11
+_06-13-2018_ 19:10:38 log [LUA] ===============ontasksuccess==================
+_06-13-2018_ 19:10:38 log [LUA] ==============检查热更=================
+_06-13-2018_ 19:10:38 log [LUA] ==> 文件路径	C:/devs/cc/sc-triple-client/simulator/win32/appData/tmp/version.json	true
+_06-13-2018_ 19:10:38 log [LUA] ==> 本地版本号	1.9.3
+_06-13-2018_ 19:10:38 log [LUA] ==> 远程版本号	1.9.3
+_06-13-2018_ 19:10:38 log [LUA] ==> 本地补丁号	3
+_06-13-2018_ 19:10:38 log [LUA] ==> 远程补丁号	6
+_06-13-2018_ 19:10:38 log [LUA] ==> 补丁地址	http://39.108.135.229:12307/static/update/v1.9.3.kl.6.patch
+_06-13-2018_ 19:10:38 log [LUA] 发现新版本，准备更新，补丁地址	http://39.108.135.229:12307/static/update/v1.9.3.kl.6.patch
+_06-13-2018_ 19:10:42 log [LUA] LuaEvent =====>9
+_06-13-2018_ 19:10:42 log [LUA] ===============ontaskerror:url:%s, sotagePath:%s	http://39.108.135.229:12307/static/update/v1.9.3.kl.6.patch	C:/devs/cc/sc-triple-client/simulator/win32/appData/tmp/hotfix.patch
+_06-13-2018_ 19:10:42 log [LUA] ===============ontaskerror	codeInternal	28	msg	Timeout was reached
+_06-13-2018_ 19:10:42 log [LUA] table : table: 0x0e20a6b0
+_06-13-2018_ 19:10:42 log [LUA] 
+********** 
+WebSocket was deprecated please use cc.WebSocket instead.
+**********
+_06-13-2018_ 19:10:42 log [LUA] [INFO] <[string "src/framework/cocos/framework/init.lua"]:28: in main chunk> 
+_06-13-2018_ 19:10:42 log [LUA] [INFO] <[string "src/framework/cocos/framework/init.lua"]:29: in main chunk> # DEBUG                        = 2
+_06-13-2018_ 19:10:42 log [LUA] [INFO] <[string "src/framework/cocos/framework/init.lua"]:30: in main chunk> #
+_06-13-2018_ 19:10:42 log [LUA] [INFO] <[string "src/framework/cocos/framework/device.lua"]:99: in main chunk> # device.platform              = windows
+_06-13-2018_ 19:10:42 log [LUA] [INFO] <[string "src/framework/cocos/framework/device.lua"]:100: in main chunk> # device.model                 = unknown
+_06-13-2018_ 19:10:42 log [LUA] [INFO] <[string "src/framework/cocos/framework/device.lua"]:101: in main chunk> # device.language              = cn
+_06-13-2018_ 19:10:42 log [LUA] [INFO] <[string "src/framework/cocos/framework/device.lua"]:102: in main chunk> # device.writablePath          = C:/devs/cc/sc-triple-client/simulator/win32/appData/
+_06-13-2018_ 19:10:42 log [LUA] [INFO] <[string "src/framework/cocos/framework/device.lua"]:103: in main chunk> # device.directorySeparator    = \
+_06-13-2018_ 19:10:42 log [LUA] [INFO] <[string "src/framework/cocos/framework/device.lua"]:104: in main chunk> # device.pathSeparator         = ;
+_06-13-2018_ 19:10:42 log [LUA] [INFO] <[string "src/framework/cocos/framework/device.lua"]:105: in main chunk> #
+_06-13-2018_ 19:10:42 log [LUA] [INFO] <[string "src/framework/cocos/framework/display.lua"]:114: in function 'setConstants'> # display.sizeInPixels         = {width = 1280.00, height = 720.00}
+_06-13-2018_ 19:10:42 log [LUA] [INFO] <[string "src/framework/cocos/framework/display.lua"]:115: in function 'setConstants'> # display.size                 = {width = 1280.00, height = 720.00}
+_06-13-2018_ 19:10:42 log [LUA] [INFO] <[string "src/framework/cocos/framework/display.lua"]:116: in function 'setConstants'> # display.contentScaleFactor   = 1.00
+_06-13-2018_ 19:10:42 log [LUA] [INFO] <[string "src/framework/cocos/framework/display.lua"]:117: in function 'setConstants'> # display.width                = 1280.00
+_06-13-2018_ 19:10:42 log [LUA] [INFO] <[string "src/framework/cocos/framework/display.lua"]:118: in function 'setConstants'> # display.height               = 720.00
+_06-13-2018_ 19:10:42 log [LUA] [INFO] <[string "src/framework/cocos/framework/display.lua"]:119: in function 'setConstants'> # display.cx                   = 640.00
+_06-13-2018_ 19:10:42 log [LUA] [INFO] <[string "src/framework/cocos/framework/display.lua"]:120: in function 'setConstants'> # display.cy                   = 360.00
+_06-13-2018_ 19:10:42 log [LUA] [INFO] <[string "src/framework/cocos/framework/display.lua"]:121: in function 'setConstants'> # display.left                 = 0.00
+_06-13-2018_ 19:10:42 log [LUA] [INFO] <[string "src/framework/cocos/framework/display.lua"]:122: in function 'setConstants'> # display.right                = 1280.00
+_06-13-2018_ 19:10:42 log [LUA] [INFO] <[string "src/framework/cocos/framework/display.lua"]:123: in function 'setConstants'> # display.top                  = 720.00
+_06-13-2018_ 19:10:42 log [LUA] [INFO] <[string "src/framework/cocos/framework/display.lua"]:124: in function 'setConstants'> # display.bottom               = 0.00
+_06-13-2018_ 19:10:42 log [LUA] [INFO] <[string "src/framework/cocos/framework/display.lua"]:125: in function 'setConstants'> # display.c_left               = -640.00
+_06-13-2018_ 19:10:42 log [LUA] [INFO] <[string "src/framework/cocos/framework/display.lua"]:126: in function 'setConstants'> # display.c_right              = 640.00
+_06-13-2018_ 19:10:42 log [LUA] [INFO] <[string "src/framework/cocos/framework/display.lua"]:127: in function 'setConstants'> # display.c_top                = 360.00
+_06-13-2018_ 19:10:42 log [LUA] [INFO] <[string "src/framework/cocos/framework/display.lua"]:128: in function 'setConstants'> # display.c_bottom             = -360.00
+_06-13-2018_ 19:10:42 log [LUA] [INFO] <[string "src/framework/cocos/framework/display.lua"]:129: in function 'setConstants'> # display.center               = {x = 640.00, y = 360.00}
+_06-13-2018_ 19:10:42 log [LUA] [INFO] <[string "src/framework/cocos/framework/display.lua"]:130: in function 'setConstants'> # display.left_top             = {x = 0.00, y = 720.00}
+_06-13-2018_ 19:10:42 log [LUA] [INFO] <[string "src/framework/cocos/framework/display.lua"]:131: in function 'setConstants'> # display.left_bottom          = {x = 0.00, y = 0.00}
+_06-13-2018_ 19:10:42 log [LUA] [INFO] <[string "src/framework/cocos/framework/display.lua"]:132: in function 'setConstants'> # display.left_center          = {x = 0.00, y = 360.00}
+_06-13-2018_ 19:10:42 log [LUA] [INFO] <[string "src/framework/cocos/framework/display.lua"]:133: in function 'setConstants'> # display.right_top            = {x = 1280.00, y = 720.00}
+_06-13-2018_ 19:10:42 log [LUA] [INFO] <[string "src/framework/cocos/framework/display.lua"]:134: in function 'setConstants'> # display.right_bottom         = {x = 1280.00, y = 0.00}
+_06-13-2018_ 19:10:42 log [LUA] [INFO] <[string "src/framework/cocos/framework/display.lua"]:135: in function 'setConstants'> # display.right_center         = {x = 1280.00, y = 360.00}
+_06-13-2018_ 19:10:42 log [LUA] [INFO] <[string "src/framework/cocos/framework/display.lua"]:136: in function 'setConstants'> # display.top_center           = {x = 640.00, y = 720.00}
+_06-13-2018_ 19:10:42 log [LUA] [INFO] <[string "src/framework/cocos/framework/display.lua"]:137: in function 'setConstants'> # display.top_bottom           = {x = 640.00, y = 0.00}
+_06-13-2018_ 19:10:42 log [LUA] [INFO] <[string "src/framework/cocos/framework/display.lua"]:138: in function 'setConstants'> #
+_06-13-2018_ 19:10:42 log [LUA] [INFO] <[string "src/framework/cocos/framework/package_support.lua"]:47: in function 'load'> cc.load() - load module "packages.mvc.init"
+_06-13-2018_ 19:10:42 log [LUA] RESOURCE_FILENAME： layout/login.csb
+_06-13-2018_ 19:10:42 log [LUA] loginUI:oncreate()
+_06-13-2018_ 19:10:42 log ThirdSDK::initPlugin: appid=wx5c1c4bf394bc59c5, appkey=3d4393d09924d1058bea0681f7372563
+_06-13-2018_ 19:10:44 log [LUA] RESOURCE_FILENAME： layout/skip.csb
+_06-13-2018_ 19:10:44 log [LUA] RESOURCE_FILENAME： layout/loading.csb
+_06-13-2018_ 19:10:44 log In the constructor of HttpClient!
+_06-13-2018_ 19:10:44 log [LUA] HTTP RESPONSE:	{"code":0,"guest":true}
+
+_06-13-2018_ 19:10:44 log [LUA] HTTP RESPONSE:	{"code":0,"name":"G1000000","uid":1000000,"headUrl":"http://wx.qlogo.cn/mmopen/s962LEwpLxhQSOnarDnceXjSxVGaibMRsvRM4EIWic0U6fQdkpqz4Vr8XS8D81QKfyYuwjwm2M2ibsFY8mia8ic51ww/0","fangka":10,"sex":1,"ip":"127.0.0.1","port":33251,"playerIp":"127.0.0.1","config":{"version":"1.9.3","android":"https://fir.im/tand","ios":"https://fir.im/tios","heartbeat":30,"forceUpdate":true,"title":"血战到底","desc":"纯正四川玩法，快捷便利的掌上血战，轻松组局，随时随地尽情游戏","daili1":"kefuweixin01","daili2":"kefuweixin01","kefu1":"kefuweixin01","appId":"xxx","appKey":"xxx"},"messages":["系统消息：健康游戏，禁止赌博","欢迎进入游戏"],"clubList":[],"debug":0}
+
+_06-13-2018_ 19:10:44 log [LUA] [INFO] <[string "src/app/data/PlayerData.lua"]:64: in function 'setHeadIcon'> localpath ===> C:/devs/cc/sc-triple-client/simulator/win32/appData/avt//head-0_1000000.png
+_06-13-2018_ 19:10:44 log [LUA] [INFO] <[string "src/framework/cocos/framework/components/event.lua"]:46: in function 'addEventListener'> table: 0x0576a618 [Event] addEventListener() - event: SOCKET_TCP_DATA, handle: 1, tag: ""
+_06-13-2018_ 19:10:44 log [LUA] [INFO] <[string "src/framework/cocos/framework/components/event.lua"]:46: in function 'addEventListener'> table: 0x0576a618 [Event] addEventListener() - event: SOCKET_TCP_CLOSE, handle: 2, tag: ""
+_06-13-2018_ 19:10:44 log [LUA] [INFO] <[string "src/framework/cocos/framework/components/event.lua"]:46: in function 'addEventListener'> table: 0x0576a618 [Event] addEventListener() - event: SOCKET_TCP_CLOSED, handle: 3, tag: ""
+_06-13-2018_ 19:10:44 log [LUA] [INFO] <[string "src/framework/cocos/framework/components/event.lua"]:46: in function 'addEventListener'> table: 0x0576a618 [Event] addEventListener() - event: SOCKET_TCP_CONNECTED, handle: 4, tag: ""
+_06-13-2018_ 19:10:44 log [LUA] [INFO] <[string "src/framework/cocos/framework/components/event.lua"]:46: in function 'addEventListener'> table: 0x0576a618 [Event] addEventListener() - event: SOCKET_TCP_CONNECT_FAILURE, handle: 5, tag: ""
+_06-13-2018_ 19:10:44 log [LUA] [INFO] <[string "src/app/network/SocketTCP.lua"]:164: in function '_onConnected'> SocketTCP._onConnectd
+_06-13-2018_ 19:10:44 log [LUA] [INFO] <[string "src/app/network/NetworkManager.lua"]:128: in function 'process'> TYPE_HANDSHAKE
+_06-13-2018_ 19:10:44 log [LUA] [INFO] <[string "src/app/network/NetworkManager.lua"]:139: in function 'process'> S===>C: {"type":2,"data":{"acId":1000000,"nickname":"G1000000","headURL":"http://wx.qlogo.cn/mmopen/s962LEwpLxhQSOnarDnceXjSxVGaibMRsvRM4EIWic0U6fQdkpqz4Vr8XS8D81QKfyYuwjwm2M2ibsFY8mia8ic51ww/0","sex":1,"fangka":10},"id":1}
+_06-13-2018_ 19:10:44 log [LUA] [INFO] <[string "src/app/data/PlayerData.lua"]:64: in function 'setHeadIcon'> localpath ===> C:/devs/cc/sc-triple-client/simulator/win32/appData/avt//head-0_1000000.png
+_06-13-2018_ 19:10:44 log [LUA] RESOURCE_FILENAME： layout/lobby.csb
+_06-13-2018_ 19:10:44 log [LUA] Lobby:oncreate()
+_06-13-2018_ 19:10:44 log [LUA] RESOURCE_FILENAME： layout/lobby_center.csb
+_06-13-2018_ 19:10:44 log [LUA] LobbyUI:registEvent
+_06-13-2018_ 19:10:44 log [LUA] [INFO] <[string "src/framework/cocos/framework/components/event.lua"]:46: in function 'addEventListener'> table: 0x0e421fb0 [Event] addEventListener() - event: BROADCAST_SYSTEM_MESSAGE, handle: 1, tag: ""
+_06-13-2018_ 19:10:44 log [LUA] [INFO] <[string "src/framework/cocos/framework/components/event.lua"]:46: in function 'addEventListener'> table: 0x0e421fb0 [Event] addEventListener() - event: SHOW_BATTLE_INFO, handle: 2, tag: ""
+_06-13-2018_ 19:10:44 log [LUA] [INFO] <[string "src/framework/cocos/framework/components/event.lua"]:46: in function 'addEventListener'> table: 0x0e421fb0 [Event] addEventListener() - event: PLAYERDATA_NICKNAME_CHANGED, handle: 3, tag: ""
+_06-13-2018_ 19:10:44 log [LUA] [INFO] <[string "src/framework/cocos/framework/components/event.lua"]:46: in function 'addEventListener'> table: 0x0e421fb0 [Event] addEventListener() - event: PLAYERDATA_HEADICON_CHANGED, handle: 4, tag: ""
+_06-13-2018_ 19:10:44 log [LUA] [INFO] <[string "src/framework/cocos/framework/components/event.lua"]:46: in function 'addEventListener'> table: 0x0e421fb0 [Event] addEventListener() - event: PLAYERDATA_CARD_COUNT_CHANGED, handle: 5, tag: ""
+_06-13-2018_ 19:10:44 log [LUA] [INFO] <[string "src/framework/cocos/framework/components/event.lua"]:46: in function 'addEventListener'> table: 0x0e421fb0 [Event] addEventListener() - event: APPLICATION_STATUS_CHANGE, handle: 6, tag: ""
+_06-13-2018_ 19:10:44 log [LUA] [INFO] <[string "src/framework/cocos/framework/components/event.lua"]:46: in function 'addEventListener'> table: 0x0e421fb0 [Event] addEventListener() - event: EXIT_GAME, handle: 7, tag: ""
+_06-13-2018_ 19:10:44 log [LUA] [INFO] <[string "src/app/network/NetworkManager.lua"]:139: in function 'process'> S===>C: {"type":3,"route":"onCoinChange","data":{"coin":10}}
+_06-13-2018_ 19:10:44 log [LUA] [INFO] <[string "src/app/network/NetworkManager.lua"]:139: in function 'process'> S===>C: {"type":2,"data":{"exist":false,"tableInfo":{"desc":"","round":0,"title":"","createdAt":0,"status":0,"creator":0,"mode":0,"deskId":""}},"id":2}

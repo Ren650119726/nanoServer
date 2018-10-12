@@ -1,0 +1,54 @@
+_07-25-2018_ 15:01:34 log cocos2d: fullPathForFilename: No file found at config.json. Possible missing file.
+_07-25-2018_ 15:01:34 log cocos2d: fullPathForFilename: No file found at config.json. Possible missing file.
+_07-25-2018_ 15:01:34 log Get data from file(config.json) failed, error code is 0
+_07-25-2018_ 15:01:34 log SCREEN DPI = 96, SCREEN SCALE = 1.00
+_07-25-2018_ 15:01:34 log Ready for GLSL
+_07-25-2018_ 15:01:34 log Ready for OpenGL 2.0
+_07-25-2018_ 15:01:34 log 
+{
+	gl.version: 4.0.0 - Build 10.18.10.4252
+	gl.supports_NPOT: true
+	cocos2d.x.version: cocos2d-x-3.10
+	cocos2d.x.compiled_with_profiler: false
+	cocos2d.x.build_type: DEBUG
+	cocos2d.x.compiled_with_gl_state_cache: true
+	gl.max_texture_size: 16384
+	gl.vendor: Intel
+	gl.renderer: Intel(R) HD Graphics 4000
+	gl.max_texture_units: 96
+	gl.supports_ETC1: false
+	gl.supports_S3TC: true
+	gl.supports_ATITC: false
+	gl.supports_PVRTC: false
+	gl.supports_BGRA8888: false
+	gl.supports_discard_framebuffer: false
+	gl.supports_vertex_array_object: true
+}
+
+
+_07-25-2018_ 15:01:34 log Project Config:
+_07-25-2018_ 15:01:34 log     project dir: 
+_07-25-2018_ 15:01:34 log     writable path: $(PROJDIR)\
+_07-25-2018_ 15:01:34 log     script file: $(PROJDIR)\
+_07-25-2018_ 15:01:34 log     frame size: 1280 x 720
+_07-25-2018_ 15:01:34 log     frame scale: 1.00
+_07-25-2018_ 15:01:34 log     show console: YES
+_07-25-2018_ 15:01:34 log     write debug log: NO ()
+_07-25-2018_ 15:01:34 log     listen: 
+_07-25-2018_ 15:01:34 log     debugger: none
+_07-25-2018_ 15:01:34 log     add searching path:
+_07-25-2018_ 15:01:34 log 
+
+
+_07-25-2018_ 15:01:34 log [LUA] ==>SearchPath	E:/GO_LuaProjecy/win32/appData/debugruntime/
+_07-25-2018_ 15:01:34 log [LUA] ==>SearchPath	E:/GO_LuaProjecy/win32/
+_07-25-2018_ 15:01:34 log [LUA] ==>SearchPath	E:/GO_LuaProjecy/win32/
+_07-25-2018_ 15:01:34 log [LUA] ==>SearchPath	
+_07-25-2018_ 15:01:34 log [LUA] ==>SearchPath	E:/GO_LuaProjecy/win32/
+_07-25-2018_ 15:01:34 log [LUA] ==>SearchPath	E:/GO_LuaProjecy/win32/appData/hotfix/res/
+_07-25-2018_ 15:01:34 log [LUA] ==>SearchPath	src/
+_07-25-2018_ 15:01:34 log [LUA] ==>SearchPath	res/
+_07-25-2018_ 15:01:34 log [LUA] # design resolution size       = {width = 1280.00, height = 720.00}
+_07-25-2018_ 15:01:34 log [LUA] # design resolution autoscale  = NO_BORDER
+_07-25-2018_ 15:01:34 log Console: listening on  0.0.0.0 : 60000
+_07-25-2018_ 15:01:34 log [LUA] start download remote version file: %s	http://127.0.0.1:12307/static/update/version.json

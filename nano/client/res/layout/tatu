@@ -1,0 +1,466 @@
+[1mdiff --git a/huHintItem.csd b/huHintItem.csd[m
+[1mindex 4b65451..69f263f 100644[m
+[1m--- a/huHintItem.csd[m
+[1m+++ b/huHintItem.csd[m
+[36m@@ -76,11 +76,11 @@[m
+             <OutlineColor A="255" R="255" G="0" B="0" />[m
+             <ShadowColor A="255" R="110" G="110" B="110" />[m
+           </AbstractNodeData>[m
+[31m-          <AbstractNodeData Name="huase" ActionTag="-494764848" Tag="84" IconVisible="False" LeftMargin="-51.8856" RightMargin="3.8856" TopMargin="-32.4151" BottomMargin="-31.5849" ctype="SpriteObjectData">[m
+[31m-            <Size X="48.0000" Y="64.0000" />[m
+[32m+[m[32m          <AbstractNodeData Name="huase" ActionTag="-494764848" Tag="84" IconVisible="False" LeftMargin="-75.8856" RightMargin="-20.1144" TopMargin="-64.4151" BottomMargin="-63.5849" ctype="SpriteObjectData">[m
+[32m+[m[32m            <Size X="96.0000" Y="128.0000" />[m
+             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />[m
+             <Position X="-27.8856" Y="0.4151" />[m
+[31m-            <Scale ScaleX="0.7600" ScaleY="0.7600" />[m
+[32m+[m[32m            <Scale ScaleX="0.4700" ScaleY="0.4700" />[m
+             <CColor A="255" R="255" G="255" B="255" />[m
+             <PrePosition />[m
+             <PreSize X="0.0000" Y="0.0000" />[m
+[1mdiff --git a/huase/tiao_1.png b/huase/tiao_1.png[m
+[1mindex 31ca3a8..5eaed9c 100644[m
+Binary files a/huase/tiao_1.png and b/huase/tiao_1.png differ
+[1mdiff --git a/huase/tiao_2.png b/huase/tiao_2.png[m
+[1mindex 4901931..94f5ce8 100644[m
+Binary files a/huase/tiao_2.png and b/huase/tiao_2.png differ
+[1mdiff --git a/huase/tiao_3.png b/huase/tiao_3.png[m
+[1mindex cdb5980..7cba9cf 100644[m
+Binary files a/huase/tiao_3.png and b/huase/tiao_3.png differ
+[1mdiff --git a/huase/tiao_4.png b/huase/tiao_4.png[m
+[1mindex 0ec0f33..0634f76 100644[m
+Binary files a/huase/tiao_4.png and b/huase/tiao_4.png differ
+[1mdiff --git a/huase/tiao_5.png b/huase/tiao_5.png[m
+[1mindex 2dcbca2..495a461 100644[m
+Binary files a/huase/tiao_5.png and b/huase/tiao_5.png differ
+[1mdiff --git a/huase/tiao_6.png b/huase/tiao_6.png[m
+[1mindex fc31312..15637d1 100644[m
+Binary files a/huase/tiao_6.png and b/huase/tiao_6.png differ
+[1mdiff --git a/huase/tiao_7.png b/huase/tiao_7.png[m
+[1mindex f7f5c8e..0b000f8 100644[m
+Binary files a/huase/tiao_7.png and b/huase/tiao_7.png differ
+[1mdiff --git a/huase/tiao_8.png b/huase/tiao_8.png[m
+[1mindex 7bbc4b0..e8e45aa 100644[m
+Binary files a/huase/tiao_8.png and b/huase/tiao_8.png differ
+[1mdiff --git a/huase/tiao_9.png b/huase/tiao_9.png[m
+[1mindex a553d0b..2290102 100644[m
+Binary files a/huase/tiao_9.png and b/huase/tiao_9.png differ
+[1mdiff --git a/huase/tong_1.png b/huase/tong_1.png[m
+[1mindex d350456..614d333 100644[m
+Binary files a/huase/tong_1.png and b/huase/tong_1.png differ
+[1mdiff --git a/huase/tong_2.png b/huase/tong_2.png[m
+[1mindex 5579ea6..98bf84f 100644[m
+Binary files a/huase/tong_2.png and b/huase/tong_2.png differ
+[1mdiff --git a/huase/tong_3.png b/huase/tong_3.png[m
+[1mindex 406ee7c..9c9702e 100644[m
+Binary files a/huase/tong_3.png and b/huase/tong_3.png differ
+[1mdiff --git a/huase/tong_4.png b/huase/tong_4.png[m
+[1mindex 0703e2d..d09072f 100644[m
+Binary files a/huase/tong_4.png and b/huase/tong_4.png differ
+[1mdiff --git a/huase/tong_5.png b/huase/tong_5.png[m
+[1mindex 255ce41..58a4d52 100644[m
+Binary files a/huase/tong_5.png and b/huase/tong_5.png differ
+[1mdiff --git a/huase/tong_6.png b/huase/tong_6.png[m
+[1mindex bb20d9d..ebd626b 100644[m
+Binary files a/huase/tong_6.png and b/huase/tong_6.png differ
+[1mdiff --git a/huase/tong_7.png b/huase/tong_7.png[m
+[1mindex 85537f0..c5612e7 100644[m
+Binary files a/huase/tong_7.png and b/huase/tong_7.png differ
+[1mdiff --git a/huase/tong_8.png b/huase/tong_8.png[m
+[1mindex 0c5f557..e2bb458 100644[m
+Binary files a/huase/tong_8.png and b/huase/tong_8.png differ
+[1mdiff --git a/huase/tong_9.png b/huase/tong_9.png[m
+[1mindex 3979a32..651e9a9 100644[m
+Binary files a/huase/tong_9.png and b/huase/tong_9.png differ
+[1mdiff --git a/huase/warning: CRLF will be replaced by LF in huHintItem.csd.
+The file will have its original line endings in your working directory.
+wan_1.png b/huase/wan_1.png[m
+[1mindex 24fee3f..8c7a719 100644[m
+Binary files a/huase/wan_1.png and b/huase/wan_1.png differ
+[1mdiff --git a/huase/wan_2.png b/huase/wan_2.png[m
+[1mindex fa1c72b..d77b591 100644[m
+Binary files a/huase/wan_2.png and b/huase/wan_2.png differ
+[1mdiff --git a/huase/wan_3.png b/huase/wan_3.png[m
+[1mindex eaf5df9..1d616ad 100644[m
+Binary files a/huase/wan_3.png and b/huase/wan_3.png differ
+[1mdiff --git a/huase/wan_4.png b/huase/wan_4.png[m
+[1mindex 3ad57fd..22bed11 100644[m
+Binary files a/huase/wan_4.png and b/huase/wan_4.png differ
+[1mdiff --git a/huase/wan_5.png b/huase/wan_5.png[m
+[1mindex f9c437f..fa13023 100644[m
+Binary files a/huase/wan_5.png and b/huase/wan_5.png differ
+[1mdiff --git a/huase/wan_6.png b/huase/wan_6.png[m
+[1mindex 6f5e2f9..9fe9f21 100644[m
+Binary files a/huase/wan_6.png and b/huase/wan_6.png differ
+[1mdiff --git a/huase/wan_7.png b/huase/wan_7.png[m
+[1mindex 6f346f2..2f5e552 100644[m
+Binary files a/huase/wan_7.png and b/huase/wan_7.png differ
+[1mdiff --git a/huase/wan_8.png b/huase/wan_8.png[m
+[1mindex c174784..8033c57 100644[m
+Binary files a/huase/wan_8.png and b/huase/wan_8.png differ
+[1mdiff --git a/huase/wan_9.png b/huase/wan_9.png[m
+[1mindex bcf01bc..15111b0 100644[m
+Binary files a/huase/wan_9.png and b/huase/wan_9.png differ
+[1mdiff --git a/matchResult.csd b/matchResult.csd[m
+[1mindex 2c48a43..188bbf7 100644[m
+[1m--- a/matchResult.csd[m
+[1m+++ b/matchResult.csd[m
+[36m@@ -190,6 +190,19 @@[m
+           </AbstractNodeData>[m
+           <AbstractNodeData Name="mj1" ActionTag="769924374" Tag="468" IconVisible="False" LeftMargin="-404.5800" RightMargin="309.5800" TopMargin="-70.0000" BottomMargin="-70.0000" ctype="SpriteObjectData">[m
+             <Size X="95.0000" Y="140.0000" />[m
+[32m+[m[32m            <Children>[m
+[32m+[m[32m              <AbstractNodeData Name="chooedIcon" ActionTag="-493866329" VisibleForFrame="False" Tag="103" IconVisible="False" LeftMargin="-4.1153" RightMargin="-3.8847" TopMargin="-8.7147" BottomMargin="-0.2853" ctype="SpriteObjectData">[m
+[32m+[m[32m                <Size X="103.0000" Y="149.0000" />[m
+[32m+[m[32m                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />[m
+[32m+[m[32m                <Position X="47.3847" Y="74.2147" />[m
+[32m+[m[32m                <Scale ScaleX="1.0000" ScaleY="1.0000" />[m
+[32m+[m[32m                <CColor A="255" R="255" G="255" B="255" />[m
+[32m+[m[32m                <PrePosition X="0.4988" Y="0.5301" />[m
+[32m+[m[32m                <PreSize X="1.0842" Y="1.0643" />[m
+[32m+[m[32m                <FileData Type="Normal" Path="majiang/matchResult/result_pic_xuanzhongguang.png" Plist="" />[m
+[32m+[m[32m                <BlendFunc Src="1" Dst="771" />[m
+[32m+[m[32m              </AbstractNodeData>[m
+[32m+[m[32m            </Children>[m
+             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />[m
+             <Position X="-357.0800" />[m
+             <Scale ScaleX="1.0000" ScaleY="1.0000" />[m
+[36m@@ -270,7 +283,7 @@[m
+             <OutlineColor A="255" R="255" G="0" B="0" />[m
+             <ShadowColor A="255" R="110" G="110" B="110" />[m
+           </AbstractNodeData>[m
+[31m-          <AbstractNodeData Name="fanNode" ActionTag="233671190" Tag="480" IconVisible="True" TopMargin="193.8900" BottomMargin="-193.8900" ctype="SingleNodeObjectData">[m
+[32m+[m[32m          <AbstractNodeData Name="fanNode" ActionTag="233671190" VisibleForFrame="False" Tag="480" IconVisible="True" TopMargin="193.8900" BottomMargin="-193.8900" ctype="SingleNodeObjectData">[m
+             <Size X="0.0000" Y="0.0000" />[m
+             <Children>[m
+               <AbstractNodeData Name="openMJ" ActionTag="-608771499" Tag="470" IconVisible="False" LeftMargin="-100.6130" RightMargin="-104.3870" TopMargin="-131.7099" BottomMargin="45.7099" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="175" Scale9Height="64" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">[m
+[36m@@ -334,7 +347,7 @@[m
+                 <OutlineColor A="255" R="255" G="0" B="0" />[m
+                 <ShadowColor A="255" R="110" G="110" B="110" />[m
+               </AbstractNodeData>[m
+[31m-              <AbstractNodeData Name="fabT2" ActionTag="1725619673" Tag="484" IconVisible="False" LeftMargin="-67.2800" RightMargin="25.2800" TopMargin="34.9191" BottomMargin="-57.9191" FontSize="20" LabelText="加倍" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">[m
+[32m+[m[32m              <AbstractNodeData Name="fanT2" ActionTag="1725619673" Tag="484" IconVisible="False" LeftMargin="-67.2800" RightMargin="25.2800" TopMargin="34.9191" BottomMargin="-57.9191" FontSize="20" LabelText="加倍" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">[m
+                 <Size X="42.0000" Y="23.0000" />[m
+                 <AnchorPoint ScaleY="0.5000" />[m
+                 <Position X="-67.2800" Y="-46.4191" />[m
+[36m@@ -407,6 +420,19 @@[m
+               </AbstractNodeData>[m
+               <AbstractNodeData Name="confirm" ActionTag="1593657131" Tag="487" IconVisible="False" LeftMargin="-102.2827" RightMargin="-102.7173" TopMargin="71.3038" BottomMargin="-157.3038" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="175" Scale9Height="64" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">[m
+                 <Size X="205.0000" Y="86.0000" />[m
+[32m+[m[32m                <Children>[m
+[32m+[m[32m                  <AbstractNodeData Name="icon" ActionTag="1996937437" Tag="489" IconVisible="False" LeftMargin="66.8668" RightMargin="67.1332" TopMargin="20.2617" BottomMargin="23.7383" ctype="SpriteObjectData">[m
+[32m+[m[32m                    <Size X="71.0000" Y="42.0000" />[m
+[32m+[m[32m                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />[m
+[32m+[m[32m                    <Position X="102.3668" Y="44.7383" />[m
+[32m+[m[32m                    <Scale ScaleX="1.0000" ScaleY="1.0000" />[m
+[32m+[m[32m                    <CColor A="255" R="255" G="255" B="255" />[m
+[32m+[m[32m                    <PrePosition X="0.4994" Y="0.5202" />[m
+[32m+[m[32m                    <PreSize X="0.3463" Y="0.4884" />[m
+[32m+[m[32m                    <FileData Type="Normal" Path="majiang/matchResult/result_font_queren.png" Plist="" />[m
+[32m+[m[32m                    <BlendFunc Src="1" Dst="771" />[m
+[32m+[m[32m                  </AbstractNodeData>[m
+[32m+[m[32m                </Children>[m
+                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />[m
+                 <Position X="0.2173" Y="-114.3038" />[m
+                 <Scale ScaleX="1.0000" ScaleY="1.0000" />[m
+[36m@@ -431,18 +457,7 @@[m
+                 <PressedBackFileData Type="Normal" Path="majiang/matchResult/user_frame_xiaoquan.png" Plist="" />[m
+                 <NodeNormalFileData Type="Normal" Path="majiang/matchResult/user_icon_huangqiu.png" Plist="" />[m
+               </AbstractNodeData>[m
+[31m-              <AbstractNodeData Name="result_font_queren_20" ActionTag="1996937437" Tag="489" IconVisible="False" LeftMargin="-33.7620" RightMargin="-37.2380" TopMargin="91.4196" BottomMargin="-133.4196" ctype="SpriteObjectData">[m
+[31m-                <Size X="71.0000" Y="42.0000" />[m
+[31m-                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />[m
+[31m-                <Position X="1.7380" Y="-112.4196" />[m
+[31m-                <Scale ScaleX="1.0000" ScaleY="1.0000" />[m
+[31m-                <CColor A="255" R="255" G="255" B="255" />[m
+[31m-                <PrePosition />[m
+[31m-                <PreSize X="0.0000" Y="0.0000" />[m
+[31m-                <FileData Type="Normal" Path="majiang/matchResult/result_font_queren.png" Plist="" />[m
+[31m-                <BlendFunc Src="1" Dst="771" />[m
+[31m-              </AbstractNodeData>[m
+[31m-              <AbstractNodeData Name="Text_17" ActionTag="641373511" Tag="490" IconVisible="False" LeftMargin="-68.3618" RightMargin="-66.6382" TopMargin="-78.2332" BottomMargin="44.2332" FontSize="30" LabelText="只差一点。" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">[m
+[32m+[m[32m              <AbstractNodeData Name="failedText" ActionTag="641373511" Tag="490" IconVisible="False" LeftMargin="-68.3618" RightMargin="-66.6382" TopMargin="-78.2332" BottomMargin="44.2332" FontSize="30" LabelText="只差一点。" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">[m
+                 <Size X="135.0000" Y="34.0000" />[m
+                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />[m
+                 <Position X="-0.8618" Y="61.2332" />[m
+[36m@@ -490,6 +505,30 @@[m
+                 <OutlineColor A="255" R="255" G="0" B="0" />[m
+                 <ShadowColor A="255" R="110" G="110" B="110" />[m
+               </AbstractNodeData>[m
+[32m+[m[32m              <AbstractNodeData Name="congratuationText" ActionTag="1328953935" Tag="101" IconVisible="False" LeftMargin="-193.1812" RightMargin="-219.8188" TopMargin="-41.4531" BottomMargin="0.4531" FontSize="36" LabelText="恭喜，您找到了“九万”！" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">[m
+[32m+[m[32m                <Size X="413.0000" Y="41.0000" />[m
+[32m+[m[32m                <AnchorPoint ScaleY="0.5000" />[m
+[32m+[m[32m                <Position X="-193.1812" Y="20.9531" />[m
+[32m+[m[32m                <Scale ScaleX="1.0000" ScaleY="1.0000" />[m
+[32m+[m[32m                <CColor A="255" R="255" G="250" B="193" />[m
+[32m+[m[32m                <PrePosition />[m
+[32m+[m[32m                <PreSize X="0.0000" Y="0.0000" />[m
+[32m+[m[32m                <FontResource Type="Normal" Path="fonts/simhei.ttf" Plist="" />[m
+[32m+[m[32m                <OutlineColor A="255" R="255" G="0" B="0" />[m
+[32m+[m[32m                <ShadowColor A="255" R="110" G="110" B="110" />[m
+[32m+[m[32m              </AbstractNodeData>[m
+[32m+[m[32m              <AbstractNodeData Name="resultText" ActionTag="-1267418406" Tag="102" IconVisible="False" LeftMargin="-166.9362" RightMargin="-176.0638" TopMargin="10.7118" BottomMargin="-51.7118" FontSize="36" LabelText="可惜你没勾选“确认”" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">[m
+[32m+[m[32m                <Size X="343.0000" Y="41.0000" />[m
+[32m+[m[32m                <AnchorPoint ScaleY="0.5000" />[m
+[32m+[m[32m                <Position X="-166.9362" Y="-31.2118" />[m
+[32m+[m[32m                <Scale ScaleX="1.0000" ScaleY="1.0000" />[m
+[32m+[m[32m                <CColor A="255" R="255" G="250" B="193" />[m
+[32m+[m[32m                <PrePosition />[m
+[32m+[m[32m                <PreSize X="0.0000" Y="0.0000" />[m
+[32m+[m[32m                <FontResource Type="Normal" Path="fonts/simhei.ttf" Plist="" />[m
+[32m+[m[32m                <OutlineColor A="255" R="255" G="0" B="0" />[m
+[32m+[m[32m                <ShadowColor A="255" R="110" G="110" B="110" />[m
+[32m+[m[32m              </AbstractNodeData>[m
+             </Children>[m
+             <AnchorPoint />[m
+             <Position Y="-152.2274" />[m
+[36m@@ -498,86 +537,95 @@[m
+             <PrePosition />[m
+             <PreSize X="0.0000" Y="0.0000" />[m
+           </AbstractNodeData>[m
+[31m-          <AbstractNodeData Name="Icon1" ActionTag="2059191317" Tag="563" IconVisible="True" LeftMargin="-357.0800" RightMargin="357.0800" TopMargin="-30.0000" BottomMargin="30.0000" ctype="SingleNodeObjectData">[m
+[31m-            <Size X="0.0000" Y="0.0000" />[m
+[31m-            <AnchorPoint />[m
+[31m-            <Position X="-357.0800" Y="30.0000" />[m
+[31m-            <Scale ScaleX="1.0000" ScaleY="1.0000" />[m
+[32m+[m[32m          <AbstractNodeData Name="Icon1" ActionTag="365709331" VisibleForFrame="False" Tag="69" IconVisible="False" LeftMargin="-407.0000" RightMargin="311.0000" TopMargin="-81.6157" BottomMargin="-46.3843" LeftEage="15" RightEage="15" TopEage="21" BottomEage="21" Scale9OriginX="15" Scale9OriginY="21" Scale9Width="66" Scale9Height="86" ctype="ImageViewObjectData">[m
+[32m+[m[32m            <Size X="96.0000" Y="128.0000" />[m
+[32m+[m[32m            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />[m
+[32m+[m[32m            <Position X="-359.0000" Y="17.6157" />[m
+[32m+[m[32m            <Scale ScaleX="0.9200" ScaleY="0.9200" />[m
+             <CColor A="255" R="255" G="255" B="255" />[m
+             <PrePosition />[m
+             <PreSize X="0.0000" Y="0.0000" />[m
+[32m+[m[32m            <FileData Type="Normal" Path="majiang/huase/tiao_1.png" Plist="" />[m
+           </AbstractNodeData>[m
+[31m-          <AbstractNodeData Name="Icon2" ActionTag="1828769533" Tag="564" IconVisible="True" LeftMargin="-267.2500" RightMargin="267.2500" TopMargin="-30.0000" BottomMargin="30.0000" ctype="SingleNodeObjectData">[m
+[31m-            <Size X="0.0000" Y="0.0000" />[m
+[31m-            <AnchorPoint />[m
+[31m-            <Position X="-267.2500" Y="30.0000" />[m
+[31m-            <Scale ScaleX="1.0000" ScaleY="1.0000" />[m
+[32m+[m[32m          <AbstractNodeData Name="Icon2" ActionTag="-1059259315" VisibleForFrame="False" Tag="95" IconVisible="False" LeftMargin="-314.2685" RightMargin="218.2685" TopMargin="-81.6157" BottomMargin="-46.3843" LeftEage="15" RightEage="15" TopEage="21" BottomEage="21" Scale9OriginX="15" Scale9OriginY="21" Scale9Width="66" Scale9Height="86" ctype="ImageViewObjectData">[m
+[32m+[m[32m            <Size X="96.0000" Y="128.0000" />[m
+[32m+[m[32m            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />[m
+[32m+[m[32m            <Position X="-266.2685" Y="17.6157" />[m
+[32m+[m[32m            <Scale ScaleX="0.9200" ScaleY="0.9200" />[m
+             <CColor A="255" R="255" G="255" B="255" />[m
+             <PrePosition />[m
+             <PreSize X="0.0000" Y="0.0000" />[m
+[32m+[m[32m            <FileData Type="Normal" Path="majiang/huase/tiao_1.png" Plist="" />[m
+           </AbstractNodeData>[m
+[31m-          <AbstractNodeData Name="Icon3" ActionTag="1676568534" Tag="565" IconVisible="True" LeftMargin="-177.8300" RightMargin="177.8300" TopMargin="-30.0000" BottomMargin="30.0000" ctype="SingleNodeObjectData">[m
+[31m-            <Size X="0.0000" Y="0.0000" />[m
+[31m-            <AnchorPoint />[m
+[31m-            <Position X="-177.8300" Y="30.0000" />[m
+[31m-            <Scale ScaleX="1.0000" ScaleY="1.0000" />[m
+[32m+[m[32m          <AbstractNodeData Name="Icon3" ActionTag="-47523509" VisibleForFrame="False" Tag="96" IconVisible="False" LeftMargin="-224.4353" RightMargin="128.4353" TopMargin="-81.9966" BottomMargin="-46.0034" LeftEage="15" RightEage="15" TopEage="21" BottomEage="21" Scale9OriginX="15" Scale9OriginY="21" Scale9Width="66" Scale9Height="86" ctype="ImageViewObjectData">[m
+[32m+[m[32m            <Size X="96.0000" Y="128.0000" />[m
+[32m+[m[32m            <AnchorPoint ScaleX="0.4645" ScaleY="0.4628" />[m
+[32m+[m[32m            <Position X="-179.8433" Y="13.2350" />[m
+[32m+[m[32m            <Scale ScaleX="0.9200" ScaleY="0.9200" />[m
+             <CColor A="255" R="255" G="255" B="255" />[m
+             <PrePosition />[m
+             <PreSize X="0.0000" Y="0.0000" />[m
+[32m+[m[32m            <FileData Type="Normal" Path="majiang/huase/tiao_1.png" Plist="" />[m
+           </AbstractNodeData>[m
+[31m-          <AbstractNodeData Name="Icon4" ActionTag="-624205652" Tag="566" IconVisible="True" LeftMargin="-88.8900" RightMargin="88.8900" TopMargin="-30.0000" BottomMargin="30.0000" ctype="SingleNodeObjectData">[m
+[31m-            <Size X="0.0000" Y="0.0000" />[m
+[31m-            <AnchorPoint />[m
+[31m-            <Position X="-88.8900" Y="30.0000" />[m
+[31m-            <Scale ScaleX="1.0000" ScaleY="1.0000" />[m
+[32m+[m[32m          <AbstractNodeData Name="Icon4" ActionTag="-1446131630" VisibleForFrame="False" Tag="97" IconVisible="False" LeftMargin="-136.9612" RightMargin="40.9612" TopMargin="-81.6157" BottomMargin="-46.3843" LeftEage="15" RightEage="15" TopEage="21" BottomEage="21" Scale9OriginX="15" Scale9OriginY="21" Scale9Width="66" Scale9Height="86" ctype="ImageViewObjectData">[m
+[32m+[m[32m            <Size X="96.0000" Y="128.0000" />[m
+[32m+[m[32m            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />[m
+[32m+[m[32m            <Position X="-88.9612" Y="17.6157" />[m
+[32m+[m[32m            <Scale ScaleX="0.9200" ScaleY="0.9200" />[m
+             <CColor A="255" R="255" G="255" B="255" />[m
+             <PrePosition />[m
+             <PreSize X="0.0000" Y="0.0000" />[m
+[32m+[m[32m            <FileData Type="Normal" Path="majiang/huase/tiao_1.png" Plist="" />[m
+           </AbstractNodeData>[m
+[31m-          <AbstractNodeData Name="Icon5" ActionTag="896347467" Tag="567" IconVisible="True" LeftMargin="0.7000" RightMargin="-0.7000" TopMargin="-30.0000" BottomMargin="30.0000" ctype="SingleNodeObjectData">[m
+[31m-            <Size X="0.0000" Y="0.0000" />[m
+[31m-            <AnchorPoint />[m
+[31m-            <Position X="0.7000" Y="30.0000" />[m
+[31m-            <Scale ScaleX="1.0000" ScaleY="1.0000" />[m
+[32m+[m[32m          <AbstractNodeData Name="Icon5" ActionTag="-72964384" VisibleForFrame="False" Tag="98" IconVisible="False" LeftMargin="-47.7886" RightMargin="-48.2114" TopMargin="-81.6157" BottomMargin="-46.3843" LeftEage="15" RightEage="15" TopEage="21" BottomEage="21" Scale9OriginX="15" Scale9OriginY="21" Scale9Width="66" Scale9Height="86" ctype="ImageViewObjectData">[m
+[32m+[m[32m            <Size X="96.0000" Y="128.0000" />[m
+[32m+[m[32m            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />[m
+[32m+[m[32m            <Position X="0.2114" Y="17.6157" />[m
+[32m+[m[32m            <Scale ScaleX="0.9200" ScaleY="0.9200" />[m
+             <CColor A="255" R="255" G="255" B="255" />[m
+             <PrePosition />[m
+             <PreSize X="0.0000" Y="0.0000" />[m
+[32m+[m[32m            <FileData Type="Normal" Path="majiang/huase/tiao_1.png" Plist="" />[m
+           </AbstractNodeData>[m
+[31m-          <AbstractNodeData Name="Icon7" ActionTag="370610548" Tag="568" IconVisible="True" LeftMargin="178.9100" RightMargin="-178.9100" TopMargin="-30.0000" BottomMargin="30.0000" ctype="SingleNodeObjectData">[m
+[31m-            <Size X="0.0000" Y="0.0000" />[m
+[31m-            <AnchorPoint />[m
+[31m-            <Position X="178.9100" Y="30.0000" />[m
+[31m-            <Scale ScaleX="1.0000" ScaleY="1.0000" />[m
+[32m+[m[32m          <AbstractNodeData Name="Icon6" ActionTag="1753322356" VisibleForFrame="False" Tag="99" IconVisible="False" LeftMargin="41.8282" RightMargin="-137.8282" TopMargin="-81.6157" BottomMargin="-46.3843" LeftEage="15" RightEage="15" TopEage="21" BottomEage="21" Scale9OriginX="15" Scale9OriginY="21" Scale9Width="66" Scale9Height="86" ctype="ImageViewObjectData">[m
+[32m+[m[32m            <Size X="96.0000" Y="128.0000" />[m
+[32m+[m[32m            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />[m
+[32m+[m[32m            <Position X="89.8282" Y="17.6157" />[m
+[32m+[m[32m            <Scale ScaleX="0.9200" ScaleY="0.9200" />[m
+             <CColor A="255" R="255" G="255" B="255" />[m
+             <PrePosition />[m
+             <PreSize X="0.0000" Y="0.0000" />[m
+[32m+[m[32m            <FileData Type="Normal" Path="majiang/huase/tiao_1.png" Plist="" />[m
+           </AbstractNodeData>[m
+[31m-          <AbstractNodeData Name="Icon6" ActionTag="-126022393" Tag="569" IconVisible="True" LeftMargin="90.0000" RightMargin="-90.0000" TopMargin="-30.0000" BottomMargin="30.0000" ctype="SingleNodeObjectData">[m
+[31m-            <Size X="0.0000" Y="0.0000" />[m
+[31m-            <AnchorPoint />[m
+[31m-            <Position X="90.0000" Y="30.0000" />[m
+[31m-            <Scale ScaleX="1.0000" ScaleY="1.0000" />[m
+[32m+[m[32m          <AbstractNodeData Name="Icon7" ActionTag="316675910" VisibleForFrame="False" Tag="100" IconVisible="False" LeftMargin="132.2222" RightMargin="-228.2222" TopMargin="-81.6157" BottomMargin="-46.3843" LeftEage="15" RightEage="15" TopEage="21" BottomEage="21" Scale9OriginX="15" Scale9OriginY="21" Scale9Width="66" Scale9Height="86" ctype="ImageViewObjectData">[m
+[32m+[m[32m            <Size X="96.0000" Y="128.0000" />[m
+[32m+[m[32m            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />[m
+[32m+[m[32m            <Position X="180.2222" Y="17.6157" />[m
+[32m+[m[32m            <Scale ScaleX="0.9200" ScaleY="0.9200" />[m
+             <CColor A="255" R="255" G="255" B="255" />[m
+             <PrePosition />[m
+             <PreSize X="0.0000" Y="0.0000" />[m
+[32m+[m[32m            <FileData Type="Normal" Path="majiang/huase/tiao_1.png" Plist="" />[m
+           </AbstractNodeData>[m
+[31m-          <AbstractNodeData Name="Icon8" ActionTag="1543295363" Tag="570" IconVisible="True" LeftMargin="268.5600" RightMargin="-268.5600" TopMargin="-30.0000" BottomMargin="30.0000" ctype="SingleNodeObjectData">[m
+[31m-            <Size X="0.0000" Y="0.0000" />[m
+[31m-            <AnchorPoint />[m
+[31m-            <Position X="268.5600" Y="30.0000" />[m
+[31m-            <Scale ScaleX="1.0000" ScaleY="1.0000" />[m
+[32m+[m[32m          <AbstractNodeData Name="Icon8" ActionTag="156949730" VisibleForFrame="False" Tag="101" IconVisible="False" LeftMargin="220.9108" RightMargin="-316.9108" TopMargin="-81.6157" BottomMargin="-46.3843" LeftEage="15" RightEage="15" TopEage="21" BottomEage="21" Scale9OriginX="15" Scale9OriginY="21" Scale9Width="66" Scale9Height="86" ctype="ImageViewObjectData">[m
+[32m+[m[32m            <Size X="96.0000" Y="128.0000" />[m
+[32m+[m[32m            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />[m
+[32m+[m[32m            <Position X="268.9108" Y="17.6157" />[m
+[32m+[m[32m            <Scale ScaleX="0.9200" ScaleY="0.9200" />[m
+             <CColor A="255" R="255" G="255" B="255" />[m
+             <PrePosition />[m
+             <PreSize X="0.0000" Y="0.0000" />[m
+[32m+[m[32m            <FileData Type="Normal" Path="majiang/huase/tiao_1.png" Plist="" />[m
+           </AbstractNodeData>[m
+[31m-          <AbstractNodeData Name="Node_5_7" ActionTag="-836389584" Tag="571" IconVisible="True" LeftMargin="357.8600" RightMargin="-357.8600" TopMargin="-30.0000" BottomMargin="30.0000" ctype="SingleNodeObjectData">[m
+[31m-            <Size X="0.0000" Y="0.0000" />[m
+[31m-            <AnchorPoint />[m
+[31m-            <Position X="357.8600" Y="30.0000" />[m
+[31m-            <Scale ScaleX="1.0000" ScaleY="1.0000" />[m
+[32m+[m[32m          <AbstractNodeData Name="Icon9" ActionTag="1444576309" VisibleForFrame="False" Tag="102" IconVisible="False" LeftMargin="309.3034" RightMargin="-405.3034" TopMargin="-81.6157" BottomMargin="-46.3843" LeftEage="15" RightEage="15" TopEage="21" BottomEage="21" Scale9OriginX="15" Scale9OriginY="21" Scale9Width="66" Scale9Height="86" ctype="ImageViewObjectData">[m
+[32m+[m[32m            <Size X="96.0000" Y="128.0000" />[m
+[32m+[m[32m            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />[m
+[32m+[m[32m            <Position X="357.3034" Y="17.6157" />[m
+[32m+[m[32m            <Scale ScaleX="0.9200" ScaleY="0.9200" />[m
+             <CColor A="255" R="255" G="255" B="255" />[m
+             <PrePosition />[m
+             <PreSize X="0.0000" Y="0.0000" />[m
+[32m+[m[32m            <FileData Type="Normal" Path="majiang/huase/tiao_1.png" Plist="" />[m
+           </AbstractNodeData>[m
+         </Children>[m
+       </ObjectData>[m
+[1mdiff --git a/matchResult/tiao_1.png b/matchResult/tiao_1.png[m
+[1mdeleted file mode 100644[m
+[1mindex d2794c8..0000000[m
+Binary files a/matchResult/tiao_1.png and /dev/null differ
+[1mdiff --git a/matchResult/tiao_2.png b/matchResult/tiao_2.png[m
+[1mdeleted file mode 100644[m
+[1mindex 29c665c..0000000[m
+Binary files a/matchResult/tiao_2.png and /dev/null differ
+[1mdiff --git a/matchResult/tiao_3.png b/matchResult/tiao_3.png[m
+[1mdeleted file mode 100644[m
+[1mindex 3c7458e..0000000[m
+Binary files a/matchResult/tiao_3.png and /dev/null differ
+[1mdiff --git a/matchResult/tiao_4.png b/matchResult/tiao_4.png[m
+[1mdeleted file mode 100644[m
+[1mindex ce2b371..0000000[m
+Binary files a/matchResult/tiao_4.png and /dev/null differ
+[1mdiff --git a/matchResult/tiao_5.png b/matchResult/tiao_5.png[m
+[1mdeleted file mode 100644[m
+[1mindex 8a55ffd..0000000[m
+Binary files a/matchResult/tiao_5.png and /dev/null differ
+[1mdiff --git a/matchResult/tiao_6.png b/matchResult/tiao_6.png[m
+[1mdeleted file mode 100644[m
+[1mindex e04b905..0000000[m
+Binary files a/matchResult/tiao_6.png and /dev/null differ
+[1mdiff --git a/matchResult/tiao_7.png b/matchResult/tiao_7.png[m
+[1mdeleted file mode 100644[m
+[1mindex c5ac7de..0000000[m
+Binary files a/matchResult/tiao_7.png and /dev/null differ
+[1mdiff --git a/matchResult/tiao_8.png b/matchResult/tiao_8.png[m
+[1mdeleted file mode 100644[m
+[1mindex f7db408..0000000[m
+Binary files a/matchResult/tiao_8.png and /dev/null differ
+[1mdiff --git a/matchResult/tiao_9.png b/matchResult/tiao_9.png[m
+[1mdeleted file mode 100644[m
+[1mindex 7d90010..0000000[m
+Binary files a/matchResult/tiao_9.png and /dev/null differ
+[1mdiff --git a/matchResult/tong_1.png b/matchResult/tong_1.png[m
+[1mdeleted file mode 100644[m
+[1mindex b790624..0000000[m
+Binary files a/matchResult/tong_1.png and /dev/null differ
+[1mdiff --git a/matchResult/tong_2.png b/matchResult/tong_2.png[m
+[1mdeleted file mode 100644[m
+[1mindex c177d21..0000000[m
+Binary files a/matchResult/tong_2.png and /dev/null differ
+[1mdiff --git a/matchResult/tong_3.png b/matchResult/tong_3.png[m
+[1mdeleted file mode 100644[m
+[1mindex a154c97..0000000[m
+Binary files a/matchResult/tong_3.png and /dev/null differ
+[1mdiff --git a/matchResult/tong_4.png b/matchResult/tong_4.png[m
+[1mdeleted file mode 100644[m
+[1mindex 4edf5e0..0000000[m
+Binary files a/matchResult/tong_4.png and /dev/null differ
+[1mdiff --git a/matchResult/tong_5.png b/matchResult/tong_5.png[m
+[1mdeleted file mode 100644[m
+[1mindex 4821e62..0000000[m
+Binary files a/matchResult/tong_5.png and /dev/null differ
+[1mdiff --git a/matchResult/tong_6.png b/matchResult/tong_6.png[m
+[1mdeleted file mode 100644[m
+[1mindex cbe05fe..0000000[m
+Binary files a/matchResult/tong_6.png and /dev/null differ
+[1mdiff --git a/matchResult/tong_7.png b/matchResult/tong_7.png[m
+[1mdeleted file mode 100644[m
+[1mindex c68ce93..0000000[m
+Binary files a/matchResult/tong_7.png and /dev/null differ
+[1mdiff --git a/matchResult/tong_8.png b/matchResult/tong_8.png[m
+[1mdeleted file mode 100644[m
+[1mindex 3681a20..0000000[m
+Binary files a/matchResult/tong_8.png and /dev/null differ
+[1mdiff --git a/matchResult/tong_9.png b/matchResult/tong_9.png[m
+[1mdeleted file mode 100644[m
+[1mindex 664969e..0000000[m
+Binary files a/matchResult/tong_9.png and /dev/null differ
+[1mdiff --git a/matchResult/wan_1.png b/matchResult/wan_1.png[m
+[1mdeleted file mode 100644[m
+[1mindex 0e46164..0000000[m
+Binary files a/matchResult/wan_1.png and /dev/null differ
+[1mdiff --git a/matchResult/wan_2.png b/matchResult/wan_2.png[m
+[1mdeleted file mode 100644[m
+[1mindex 3f373d5..0000000[m
+Binary files a/matchResult/wan_2.png and /dev/null differ
+[1mdiff --git a/matchResult/wan_3.png b/matchResult/wan_3.png[m
+[1mdeleted file mode 100644[m
+[1mindex 077e5dc..0000000[m
+Binary files a/matchResult/wan_3.png and /dev/null differ
+[1mdiff --git a/matchResult/wan_4.png b/matchResult/wan_4.png[m
+[1mdeleted file mode 100644[m
+[1mindex 21aa5d1..0000000[m
+Binary files a/matchResult/wan_4.png and /dev/null differ
+[1mdiff --git a/matchResult/wan_5.png b/matchResult/wan_5.png[m
+[1mdeleted file mode 100644[m
+[1mindex 63202d3..0000000[m
+Binary files a/matchResult/wan_5.png and /dev/null differ
+[1mdiff --git a/matchResult/wan_6.png b/matchResult/wan_6.png[m
+[1mdeleted file mode 100644[m
+[1mindex eb8709b..0000000[m
+Binary files a/matchResult/wan_6.png and /dev/null differ
+[1mdiff --git a/matchResult/wan_7.png b/matchResult/wan_7.png[m
+[1mdeleted file mode 100644[m
+[1mindex d352048..0000000[m
+Binary files a/matchResult/wan_7.png and /dev/null differ
+[1mdiff --git a/matchResult/wan_8.png b/matchResult/wan_8.png[m
+[1mdeleted file mode 100644[m
+[1mindex 5976f0f..0000000[m
+Binary files a/matchResult/wan_8.png and /dev/null differ
+[1mdiff --git a/matchResult/wan_9.png b/matchResult/wan_9.png[m
+[1mdeleted file mode 100644[m
+[1mindex c1fb4d1..0000000[m
+Binary files a/matchResult/wan_9.png and /dev/null differ
+warning: CRLF will be replaced by LF in matchResult.csd.
+The file will have its original line endings in your working directory.

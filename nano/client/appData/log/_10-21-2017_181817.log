@@ -1,0 +1,127 @@
+_10-21-2017_ 18:18:17 log cocos2d: fullPathForFilename: No file found at config.json. Possible missing file.
+_10-21-2017_ 18:18:17 log cocos2d: fullPathForFilename: No file found at config.json. Possible missing file.
+_10-21-2017_ 18:18:17 log Get data from file(config.json) failed, error code is 3
+_10-21-2017_ 18:18:17 log SCREEN DPI = 96, SCREEN SCALE = 1.00
+_10-21-2017_ 18:18:18 log Ready for GLSL
+_10-21-2017_ 18:18:18 log Ready for OpenGL 2.0
+_10-21-2017_ 18:18:18 log 
+{
+	gl.version: 4.5.0 NVIDIA 382.05
+	gl.supports_NPOT: true
+	cocos2d.x.version: cocos2d-x-3.10
+	cocos2d.x.compiled_with_profiler: false
+	cocos2d.x.build_type: DEBUG
+	cocos2d.x.compiled_with_gl_state_cache: true
+	gl.max_texture_size: 32768
+	gl.vendor: NVIDIA Corporation
+	gl.renderer: GeForce GTX 1050/PCIe/SSE2
+	gl.max_texture_units: 192
+	gl.supports_ETC1: false
+	gl.supports_S3TC: true
+	gl.supports_ATITC: false
+	gl.supports_PVRTC: false
+	gl.supports_BGRA8888: false
+	gl.supports_discard_framebuffer: false
+	gl.supports_vertex_array_object: true
+}
+
+
+_10-21-2017_ 18:18:18 log Project Config:
+_10-21-2017_ 18:18:18 log     project dir: 
+_10-21-2017_ 18:18:18 log     writable path: $(PROJDIR)\
+_10-21-2017_ 18:18:18 log     script file: $(PROJDIR)\
+_10-21-2017_ 18:18:18 log     frame size: 1280 x 720
+_10-21-2017_ 18:18:18 log     frame scale: 1.00
+_10-21-2017_ 18:18:18 log     show console: YES
+_10-21-2017_ 18:18:18 log     write debug log: NO ()
+_10-21-2017_ 18:18:18 log     listen: 
+_10-21-2017_ 18:18:18 log     debugger: none
+_10-21-2017_ 18:18:18 log     add searching path:
+_10-21-2017_ 18:18:18 log 
+
+
+_10-21-2017_ 18:18:18 log [LUA] ==>SearchPath	C:/devs/cc/sc-triple-client/simulator/win32/appData/debugruntime/
+_10-21-2017_ 18:18:18 log [LUA] ==>SearchPath	C:/devs/cc/sc-triple-client/simulator/win32/
+_10-21-2017_ 18:18:18 log [LUA] ==>SearchPath	C:/devs/cc/sc-triple-client/simulator/win32/
+_10-21-2017_ 18:18:18 log [LUA] ==>SearchPath	
+_10-21-2017_ 18:18:18 log [LUA] ==>SearchPath	C:/devs/cc/sc-triple-client/simulator/win32/
+_10-21-2017_ 18:18:18 log [LUA] ==>SearchPath	C:/devs/cc/sc-triple-client/simulator/win32/appData/hotfix/res/
+_10-21-2017_ 18:18:18 log [LUA] ==>SearchPath	src/
+_10-21-2017_ 18:18:18 log [LUA] ==>SearchPath	res/
+_10-21-2017_ 18:18:18 log [LUA] # design resolution size       = {width = 1280.00, height = 720.00}
+_10-21-2017_ 18:18:18 log [LUA] # design resolution autoscale  = NO_BORDER
+_10-21-2017_ 18:18:18 log Console: listening on  0.0.0.0 : 60000
+_10-21-2017_ 18:18:18 log [LUA] start download remote version file: %s	http://127.0.0.1:12306/static/update/version.json
+_10-21-2017_ 18:18:18 log [LUA] LuaEvent =====>9
+_10-21-2017_ 18:18:18 log [LUA] ===============ontaskerror:url:%s, sotagePath:%s	http://127.0.0.1:12306/static/update/version.json?ts=1508581098	C:/devs/cc/sc-triple-client/simulator/win32/appData/tmp/version.json
+_10-21-2017_ 18:18:18 log [LUA] ===============ontaskerror	codeInternal	22	msg	HTTP response code said error
+_10-21-2017_ 18:18:18 log [LUA] updater.rmdir:	C:/devs/cc/sc-triple-client/simulator/win32/appData/tmp/
+_10-21-2017_ 18:18:18 log [LUA] table : table: 0x0f07a650
+_10-21-2017_ 18:18:19 log [LUA] 
+********** 
+WebSocket was deprecated please use cc.WebSocket instead.
+**********
+_10-21-2017_ 18:18:19 log [LUA] [INFO] <[string "src/framework/cocos/framework/init.lua"]:28: in main chunk> 
+_10-21-2017_ 18:18:19 log [LUA] [INFO] <[string "src/framework/cocos/framework/init.lua"]:29: in main chunk> # DEBUG                        = 2
+_10-21-2017_ 18:18:19 log [LUA] [INFO] <[string "src/framework/cocos/framework/init.lua"]:30: in main chunk> #
+_10-21-2017_ 18:18:19 log [LUA] [INFO] <[string "src/framework/cocos/framework/device.lua"]:99: in main chunk> # device.platform              = windows
+_10-21-2017_ 18:18:19 log [LUA] [INFO] <[string "src/framework/cocos/framework/device.lua"]:100: in main chunk> # device.model                 = unknown
+_10-21-2017_ 18:18:19 log [LUA] [INFO] <[string "src/framework/cocos/framework/device.lua"]:101: in main chunk> # device.language              = cn
+_10-21-2017_ 18:18:19 log [LUA] [INFO] <[string "src/framework/cocos/framework/device.lua"]:102: in main chunk> # device.writablePath          = C:/devs/cc/sc-triple-client/simulator/win32/appData/
+_10-21-2017_ 18:18:19 log [LUA] [INFO] <[string "src/framework/cocos/framework/device.lua"]:103: in main chunk> # device.directorySeparator    = \
+_10-21-2017_ 18:18:19 log [LUA] [INFO] <[string "src/framework/cocos/framework/device.lua"]:104: in main chunk> # device.pathSeparator         = ;
+_10-21-2017_ 18:18:19 log [LUA] [INFO] <[string "src/framework/cocos/framework/device.lua"]:105: in main chunk> #
+_10-21-2017_ 18:18:19 log [LUA] [INFO] <[string "src/framework/cocos/framework/display.lua"]:114: in function 'setConstants'> # display.sizeInPixels         = {width = 1280.00, height = 720.00}
+_10-21-2017_ 18:18:19 log [LUA] [INFO] <[string "src/framework/cocos/framework/display.lua"]:115: in function 'setConstants'> # display.size                 = {width = 1280.00, height = 720.00}
+_10-21-2017_ 18:18:19 log [LUA] [INFO] <[string "src/framework/cocos/framework/display.lua"]:116: in function 'setConstants'> # display.contentScaleFactor   = 1.00
+_10-21-2017_ 18:18:19 log [LUA] [INFO] <[string "src/framework/cocos/framework/display.lua"]:117: in function 'setConstants'> # display.width                = 1280.00
+_10-21-2017_ 18:18:19 log [LUA] [INFO] <[string "src/framework/cocos/framework/display.lua"]:118: in function 'setConstants'> # display.height               = 720.00
+_10-21-2017_ 18:18:19 log [LUA] [INFO] <[string "src/framework/cocos/framework/display.lua"]:119: in function 'setConstants'> # display.cx                   = 640.00
+_10-21-2017_ 18:18:19 log [LUA] [INFO] <[string "src/framework/cocos/framework/display.lua"]:120: in function 'setConstants'> # display.cy                   = 360.00
+_10-21-2017_ 18:18:19 log [LUA] [INFO] <[string "src/framework/cocos/framework/display.lua"]:121: in function 'setConstants'> # display.left                 = 0.00
+_10-21-2017_ 18:18:19 log [LUA] [INFO] <[string "src/framework/cocos/framework/display.lua"]:122: in function 'setConstants'> # display.right                = 1280.00
+_10-21-2017_ 18:18:19 log [LUA] [INFO] <[string "src/framework/cocos/framework/display.lua"]:123: in function 'setConstants'> # display.top                  = 720.00
+_10-21-2017_ 18:18:19 log [LUA] [INFO] <[string "src/framework/cocos/framework/display.lua"]:124: in function 'setConstants'> # display.bottom               = 0.00
+_10-21-2017_ 18:18:19 log [LUA] [INFO] <[string "src/framework/cocos/framework/display.lua"]:125: in function 'setConstants'> # display.c_left               = -640.00
+_10-21-2017_ 18:18:19 log [LUA] [INFO] <[string "src/framework/cocos/framework/display.lua"]:126: in function 'setConstants'> # display.c_right              = 640.00
+_10-21-2017_ 18:18:19 log [LUA] [INFO] <[string "src/framework/cocos/framework/display.lua"]:127: in function 'setConstants'> # display.c_top                = 360.00
+_10-21-2017_ 18:18:19 log [LUA] [INFO] <[string "src/framework/cocos/framework/display.lua"]:128: in function 'setConstants'> # display.c_bottom             = -360.00
+_10-21-2017_ 18:18:19 log [LUA] [INFO] <[string "src/framework/cocos/framework/display.lua"]:129: in function 'setConstants'> # display.center               = {x = 640.00, y = 360.00}
+_10-21-2017_ 18:18:19 log [LUA] [INFO] <[string "src/framework/cocos/framework/display.lua"]:130: in function 'setConstants'> # display.left_top             = {x = 0.00, y = 720.00}
+_10-21-2017_ 18:18:19 log [LUA] [INFO] <[string "src/framework/cocos/framework/display.lua"]:131: in function 'setConstants'> # display.left_bottom          = {x = 0.00, y = 0.00}
+_10-21-2017_ 18:18:19 log [LUA] [INFO] <[string "src/framework/cocos/framework/display.lua"]:132: in function 'setConstants'> # display.left_center          = {x = 0.00, y = 360.00}
+_10-21-2017_ 18:18:19 log [LUA] [INFO] <[string "src/framework/cocos/framework/display.lua"]:133: in function 'setConstants'> # display.right_top            = {x = 1280.00, y = 720.00}
+_10-21-2017_ 18:18:19 log [LUA] [INFO] <[string "src/framework/cocos/framework/display.lua"]:134: in function 'setConstants'> # display.right_bottom         = {x = 1280.00, y = 0.00}
+_10-21-2017_ 18:18:19 log [LUA] [INFO] <[string "src/framework/cocos/framework/display.lua"]:135: in function 'setConstants'> # display.right_center         = {x = 1280.00, y = 360.00}
+_10-21-2017_ 18:18:19 log [LUA] [INFO] <[string "src/framework/cocos/framework/display.lua"]:136: in function 'setConstants'> # display.top_center           = {x = 640.00, y = 720.00}
+_10-21-2017_ 18:18:19 log [LUA] [INFO] <[string "src/framework/cocos/framework/display.lua"]:137: in function 'setConstants'> # display.top_bottom           = {x = 640.00, y = 0.00}
+_10-21-2017_ 18:18:19 log [LUA] [INFO] <[string "src/framework/cocos/framework/display.lua"]:138: in function 'setConstants'> #
+_10-21-2017_ 18:18:19 log [LUA] [INFO] <[string "src/framework/cocos/framework/package_support.lua"]:47: in function 'load'> cc.load() - load module "packages.mvc.init"
+_10-21-2017_ 18:18:19 log [LUA] RESOURCE_FILENAMEï¼š layout/login.csb
+_10-21-2017_ 18:18:19 log [LUA] loginUI:oncreate()
+_10-21-2017_ 18:18:19 log ThirdSDK::initPlugin: appid=wx5c1c4bf394bc59c5, appkey=3d4393d09924d1058bea0681f7372563
+_10-21-2017_ 18:18:22 log [LUA] RESOURCE_FILENAMEï¼š layout/skip.csb
+_10-21-2017_ 18:18:22 log [LUA] RESOURCE_FILENAMEï¼š layout/loading.csb
+_10-21-2017_ 18:18:22 log In the constructor of HttpClient!
+_10-21-2017_ 18:18:22 log [LUA] HTTP RESPONSE:	{"code":0,"guest":true}
+
+_10-21-2017_ 18:18:22 log [LUA] HTTP RESPONSE:	{"code":0,"name":"G1000041","uid":1000041,"headUrl":"http://wx.qlogo.cn/mmopen/s962LEwpLxhQSOnarDnceXjSxVGaibMRsvRM4EIWic0U6fQdkpqz4Vr8XS8D81QKfyYuwjwm2M2ibsFY8mia8ic51ww/0","fangka":10,"sex":1,"ip":"127.0.0.1","port":33251,"playerIp":"127.0.0.1","config":{"version":"1.4.0.426.01","android":"http://fir.im/dz7k","ios":"http://fir.im/cj7q","heartbeat":5,"forceUpdate":false,"title":"","desc":"","daili1":"","daili2":"","kefu1":"","appId":"","appKey":""},"messages":null,"clubList":[]}
+
+_10-21-2017_ 18:18:22 log [LUA] [INFO] <[string "src/app/data/PlayerData.lua"]:64: in function 'setHeadIcon'> localpath ===> C:/devs/cc/sc-triple-client/simulator/win32/appData/avt//head-0_1000041.png
+_10-21-2017_ 18:18:22 log [LUA] [INFO] <[string "src/framework/cocos/framework/components/event.lua"]:46: in function 'addEventListener'> table: 0x06e6d058 [Event] addEventListener() - event: SOCKET_TCP_DATA, handle: 1, tag: ""
+_10-21-2017_ 18:18:22 log [LUA] [INFO] <[string "src/framework/cocos/framework/components/event.lua"]:46: in function 'addEventListener'> table: 0x06e6d058 [Event] addEventListener() - event: SOCKET_TCP_CLOSE, handle: 2, tag: ""
+_10-21-2017_ 18:18:22 log [LUA] [INFO] <[string "src/framework/cocos/framework/components/event.lua"]:46: in function 'addEventListener'> table: 0x06e6d058 [Event] addEventListener() - event: SOCKET_TCP_CLOSED, handle: 3, tag: ""
+_10-21-2017_ 18:18:22 log [LUA] [INFO] <[string "src/framework/cocos/framework/components/event.lua"]:46: in function 'addEventListener'> table: 0x06e6d058 [Event] addEventListener() - event: SOCKET_TCP_CONNECTED, handle: 4, tag: ""
+_10-21-2017_ 18:18:22 log [LUA] [INFO] <[string "src/framework/cocos/framework/components/event.lua"]:46: in function 'addEventListener'> table: 0x06e6d058 [Event] addEventListener() - event: SOCKET_TCP_CONNECT_FAILURE, handle: 5, tag: ""
+_10-21-2017_ 18:18:22 log [LUA] ===>obj	{"uid":1000041,"ip":"127.0.0.1","headUrl":"http://wx.qlogo.cn/mmopen/s962LEwpLxhQSOnarDnceXjSxVGaibMRsvRM4EIWic0U6fQdkpqz4Vr8XS8D81QKfyYuwjwm2M2ibsFY8mia8ic51ww/0","sex":1,"name":"G1000041","fangka":10}
+_10-21-2017_ 18:18:22 log [LUA] ===>enc	JxUWtOtYjjR7oQL/7hJw3wFWz8kE4827CwsuM/STgzdZfwLr9q47/hVLftZIl22zMJ2dd2HDBHhQMnQMSe9Lf/LvsPsemzxNIICIHBq32Fz5gU8bs6vfu04+55AHZXi0y13JVQF1WMtYOEmSFLVU5P5nSmXDcpTmRjsM9uq2Ti85XmT+CIxLq3037VVJVvto+XdA/yajo9lp0zJ3ieKK8wIvYj9+NSr0m/mnLXrJfYNWencugzNe2VfM63yp9DwBA15aCpQtYjUkBFdBX2chLw==
+_10-21-2017_ 18:18:22 log [LUA] [INFO] <[string "src/app/network/SocketTCP.lua"]:164: in function '_onConnected'> SocketTCP._onConnectd
+_10-21-2017_ 18:18:22 log [LUA] HTTP RESPONSE:	ÿØÿà
+_10-21-2017_ 18:18:22 log [LUA] [INFO] <[string "src/app/network/HttpRequest.lua"]:50: in function <[string "src/app/network/HttpRequest.lua"]:41>> download fullFileName:C:/devs/cc/sc-triple-client/simulator/win32/appData/avt/head-0_1000041.png
+_10-21-2017_ 18:18:22 log [LUA] [INFO] <[string "src/app/network/NetworkManager.lua"]:128: in function 'process'> TYPE_HANDSHAKE
+_10-21-2017_ 18:18:44 log [LUA] [string "src/framework/cocos/cocos2d/json.lua"]:374: expected argument of type string, got nil
+stack traceback:
+	[string "src/framework/cocos/cocos2d/json.lua"]:374: in function 'decode'
+	[string "src/app/starx/Protocol.lua"]:126: in function 'decode'
+	[string "src/app/network/NetworkManager.lua"]:138: in function 'process'
+	[string "src/app/network/NetworkManager.lua"]:285: in function <[string "src/app/network/NetworkManager.lua"]:282>
