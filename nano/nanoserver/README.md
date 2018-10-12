@@ -1,20 +1,5 @@
 # nanoserver(客户端仅用于调试)
 
-**申明: 本代码开源的目的在于作为`Nano`的示例用于学习, 使用者的其他行为与作者无关**
-
-**交流群(QQGroup): 289680347** [![](http://pub.idqqimg.com/wpa/images/group.png)](http://shang.qq.com/wpa/qunwpa?idkey=24e06c02d306f6559528e8434b3b54ed049628fdba4c5dcbcfe9f0e2f611cf81)
-
-四川麻将玩法, 血战到底(三人模式/四人模式)服务器程序,  房卡模式, 支持俱乐部.
-
-基于[`Nano`](https://github.com/lonnng/nano)开发, 本程序主要用于演示如何使用`nano`进行游戏服务器程序开发, 演示客户端下载地址: 
-
-- iOS: https://fir.im/tios
-- Android: https://fir.im/tand
-
-如果要连接自己的服务器
- + 简单模式: 使用PC客户端/Mac客户端(不支持微信登录, 只能使用游客登录, 客户端群文件共享)
- + 困难模式: 可以反编译android的包, 然后修改appConfig.lua中的远程服务器地址, 然后重新打包就可以玩了.
-
 ### 功能介绍
 
 1. 首次运行自动创建MySQL数据库表结构
